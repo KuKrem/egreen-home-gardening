@@ -1,0 +1,170 @@
+body {
+  margin:0;
+  /*color:#edf3ff;*/
+  background:#c8c8c8;
+  background:url(../images/green-rankings-2017.jpg) fixed;
+  background-size: cover;
+  font:600 16px/18px 'Open Sans',sans-serif;
+}
+
+.bg-dark {
+    background-color: #343a40!important;
+}
+
+.egreen {
+    text-align: center;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: normal;
+    font-size: 80px;
+    color: #10D241;
+}
+
+.logo img {
+    height: 100px;
+    width: 100px;
+    float: left;
+}
+
+.sitename {
+    background-color: #5FF945;
+    margin-top: 45px;
+    width: 500px;
+}
+
+   .border-effect { height:15px;width:20%;margin-top: 2px; }
+
+      * {
+        -moz-box-sizing: border-box;
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+
+      .item {
+        position: relative;  
+        overflow: hidden;
+        width: 100%;
+      }
+      
+      .item img {
+        max-width: 100%;  
+        -moz-transition: all 0.3s;
+        -webkit-transition: all 0.3s;
+        transition: all 0.3s;
+      }
+
+.card-deck {
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 10px;
+  }
+
+.h1, h1 {
+    font-size: 2.5rem;
+    margin-top: 30px;
+}
+
+#page-wrap { 
+  max-width: 1300px; 
+  margin: 50px, 200px;
+  padding: 10px, 200px, 10px, 200px;
+}
+
+sub {
+  font-size: 15px;
+  text-color: red;
+}
+
+.toplink {
+  background: linear-gradient(to top right, #99ff66 0%, #009933 171%);
+}
+
+.aboutus {
+  margin: 200px, 200px;
+  background: linear-gradient(to bottom, #339933 0%, #99ff66 100%);
+  line-height: 25px;
+}
+
+.text-mute {
+  color: #fff !important;
+}
+
+.context-dark, .bg-gray-dark, .bg-primary {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+    color: #ffffff;
+}
+.nav-list li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.nav-list li a:hover:before {
+    margin-left: 0;
+    opacity: 1;
+    visibility: visible;
+}
+
+ul, ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.social-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding: 23px;
+    font: 900 13px/1 "Lato", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.5);
+}
+.social-container .col {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+.nav-list li a:before {
+    content: "\f14f";
+    font: 400 21px/1 "Material Design Icons";
+    color: #4d6de6;
+    display: inline-block;
+    vertical-align: baseline;
+    margin-left: -28px;
+    margin-right: 7px;
+    opacity: 0;
+    visibility: hidden;
+    transition: .22s ease;
+}
+
+footer {
+  background: linear-gradient(to top right, #339933 18%, #ccff33 84%);
+  font-family: serif;
+  font-weight: initial;
+  opacity: 0.8;
+}
+
+.footer-classic {
+  color: black;
+  font-size: 20px;
+}
+
+.section {
+  margin-top: 10px;
+  line-height: 25px;
+}
+
+.row-30 {
+  padding-top: 25px;
+}
+
+.brand-logo-light {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #000000;
+}

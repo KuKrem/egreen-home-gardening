@@ -1,0 +1,8 @@
+body {
+	margin:0;
+	color:#edf3ff;
+	background:#c8c8c8;
+	background:url(../images/green-rankings-2017.jpg) fixed;
+	background-size: cover;
+	font:600 16px/18px 'Open Sans',sans-serif;
+}

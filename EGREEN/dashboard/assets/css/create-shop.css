@@ -1,0 +1,14 @@
+input.error{
+  background-color: #F1948A;
+}
+span.error{
+  color: #F1948A;
+  background-color: #ffffff;
+}
+input.valid{
+  background-color: #2ECC71;
+}
+span.valid{
+  color: #63b946;
+  background-color: #ffffff;
+}
